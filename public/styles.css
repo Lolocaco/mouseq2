@@ -1,0 +1,54 @@
+body {
+    background-color: white;
+    color: navy;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: navy;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer {
+    background-color: navy;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h1, h2, h3 {
+    color: navy;
+}
+
+button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkorange;
+}
+
+.ticket {
+    border: 1px solid navy;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.ticket-claimed {
+    background-color: lightyellow;
+}
+
+.message {
+    font-style: italic;
+    color: gray;
+}
